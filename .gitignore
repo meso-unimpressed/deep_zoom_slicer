@@ -1,0 +1,5 @@
+sample_data/*
+generated_data/*
+*.log
+.tmp*
+test.rb

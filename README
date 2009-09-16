@@ -1,0 +1,46 @@
+D E E P    Z O O M    S L I C E R
+
+Deep Zoom Slicer slices images into several tiles and creates xml descriptor file.
+Sliced images are compatible for use with OpenZoom, DeepZoom and Seadragon.
+
+-------------------------------------------------------------------------------
+
+Copyright (c) 2009, MESO Web Scapes, Sascha Hanssen <hanssen@meso.net>
+All rights reserved.
+
+Home: <http://www.meso.net/deep_zoom_slicer> 
+Code: <http://github.com/hanssen/deep_zoom_slicer>
+
+Author:: MESO Web Scapes (www.meso.net)
+License:: MPL 1.1/GPL 3/LGPL 3
+
+Contributor(s):
+  Sascha Hanssen <hanssen@meso.net>
+
+Software distributed under the License is distributed on an "AS IS" basis,
+WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+for the specific language governing rights and limitations under the
+License.
+
+-------------------------------------------------------------------------------
+
+Example:
+
+  require 'deep_zoom'
+  DeepZoom.new('path/to/sample.jpg').slice!
+
+Or define custom options:
+
+  file_options  = { :dir     => 'cropped',
+                    :format  => 'png',
+                    :quality => 80 }
+  slice_options = { :tile_size => 256,
+                    :overlap   => 4 }
+
+  img_path = 'path/to/sample.jpg'
+
+  DeepZoom.new(img_path, file_options).slice!(slice_options)
+
+Remove Deep Zoom created files:
+
+  DeepZoom.new(img_path, file_options).remove_files!
