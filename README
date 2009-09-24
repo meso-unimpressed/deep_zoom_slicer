@@ -1,32 +1,9 @@
-D E E P    Z O O M    S L I C E R
+= DEEP ZOOM SLICER
 
 Deep Zoom Slicer slices images into several tiles and creates xml descriptor file.
 Sliced images are compatible for use with OpenZoom, Deep Zoom and Seadragon.
 
--------------------------------------------------------------------------------
-
-Copyright (c) 2009, MESO Web Scapes, Sascha Hanssen <hanssen@meso.net>
-All rights reserved.
-
-Home: <http://www.meso.net/deep_zoom_slicer> 
-Code: <http://github.com/hanssen/deep_zoom_slicer>
-
-Author:: MESO Web Scapes (www.meso.net)
-License:: MPL 1.1/GPL 3/LGPL 3
-
-Contributor(s):
-  Sascha Hanssen <hanssen@meso.net>
-
-Software distributed under the License is distributed on an "AS IS" basis,
-WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-for the specific language governing rights and limitations under the
-License.
-
-Deep Zoom and Seadragon are trademarks or registered trademarks of Microsoft, Inc.
-
--------------------------------------------------------------------------------
-
-Example:
+== Usage
 
   require 'deep_zoom'
   DeepZoom.new('path/to/sample.jpg').slice!
@@ -46,3 +23,25 @@ Or define custom options:
 Remove Deep Zoom created files:
 
   DeepZoom.new(img_path, file_options).remove_files!
+
+== Additional Information
+
+Copyright (c) 2009, MESO Web Scapes, Sascha Hanssen (hanssen@meso.net)
+All rights reserved.
+
+Meso Homepage: <http://www.meso.net/deep_zoom_slicer> 
+GitHub: <http://github.com/hanssen/deep_zoom_slicer>
+
+Author: MESO Web Scapes (www.meso.net)
+License: MPL 1.1/GPL 3/LGPL 3
+
+Contributor(s):
+* Sascha Hanssen <hanssen@meso.net>
+
+Software distributed under the License is distributed on an "AS IS" basis,
+WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+for the specific language governing rights and limitations under the
+License.
+
+Deep Zoom and Seadragon are trademarks or registered trademarks of Microsoft, Inc.
+
