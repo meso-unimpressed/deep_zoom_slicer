@@ -29,11 +29,10 @@ Remove Deep Zoom created files:
 Copyright (c) 2009, MESO Web Scapes, Sascha Hanssen (hanssen@meso.net)
 All rights reserved.
 
-Meso Homepage: <http://www.meso.net/deep_zoom_slicer> 
-GitHub: <http://github.com/hanssen/deep_zoom_slicer>
-
-Author: MESO Web Scapes (www.meso.net)
-License: MPL 1.1/GPL 3/LGPL 3
+* Author: MESO Web Scapes (www.meso.net)
+* License: MPL 1.1/GPL 3/LGPL 3
+* Meso Homepage: http://www.meso.net/deep_zoom_slicer
+* GitHub: http://github.com/hanssen/deep_zoom_slicer
 
 Contributor(s):
 * Sascha Hanssen <hanssen@meso.net>
